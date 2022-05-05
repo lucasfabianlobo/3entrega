@@ -42,6 +42,8 @@ li {
   color: $primary-color;
 }
 
+/**********************EXTEND******************/
+
 button {
   font-size: 1rem;
   font-weight: bold;
@@ -54,6 +56,7 @@ button {
   cursor: pointer;
 
   &:hover {
+    @extend .button;
     background-color: rgb(98, 31, 160);
   }
 }
